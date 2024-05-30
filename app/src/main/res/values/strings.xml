@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">MonaApp</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="username_text">Username or Email</string>
+    <string name="username_hint">example@example.com</string>
+    <string name="password_text">Password</string>
+    <string name="password_hint">●●●●●●●●</string>
+    <string name="login_button">Log In</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="sign_up_text">Don’t have an account? Sign Up</string>
     <string name="title_activity_test">test</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
