@@ -4,9 +4,8 @@
     <string name="username_text">Username or Email</string>
     <string name="username_hint">example@example.com</string>
     <string name="password_text">Password</string>
-    <string name="password_hint">* * * * * * * *</string>
+    <string name="password_hint">●●●●●●●●</string>
     <string name="login_button">Log In</string>
     <string name="forgot_password_text">Forgot Password?</string>
-    <string name="sign_up_button">Sign Up</string>
     <string name="sign_up_text">Don’t have an account? Sign Up</string>
 </resources>
