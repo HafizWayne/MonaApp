@@ -13,15 +13,6 @@
         android:orientation="vertical"
         android:paddingVertical="9dp">
 
-        <LinearLayout
-            android:id="@+id/ram4lkacley"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="37dp"
-            android:layout_marginBottom="20dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"></LinearLayout>
-
         <TextView
             android:id="@+id/rw3mr6wapc4a"
             android:layout_width="wrap_content"

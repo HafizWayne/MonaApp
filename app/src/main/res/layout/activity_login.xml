@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="#FFFFFFFF"
+    android:background="#FF003C43"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,22 +10,23 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/app_background"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cr40bff003c43"
         android:orientation="vertical"
         android:paddingVertical="9dp">
 
         <TextView
-            android:id="@+id/welcome_text"
+            android:id="@+id/rw3mr6wapc4a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="143dp"
-            android:layout_marginTop="48dp"
-            android:layout_marginBottom="57dp"
-            android:text="@string/welcome_text"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Login"
             android:textColor="#E3FEF7"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
 
         <LinearLayout
             android:id="@+id/bottom_half_bg"
@@ -128,4 +129,3 @@
 
         </LinearLayout>
     </LinearLayout>
-</LinearLayout>
