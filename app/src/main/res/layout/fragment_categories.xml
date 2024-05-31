@@ -213,194 +213,175 @@
 
 
 
+            <LinearLayout
+                android:id="@+id/crop_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_crop"
+                android:paddingTop="27dp"
+                android:orientation="vertical">
                 <LinearLayout
-                    android:id="@+id/crop_background"
+                    android:id="@+id/ralzrxtx3tm"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/background_crop"
-                    android:paddingTop="27dp"
-                    android:orientation="vertical">
-                    <LinearLayout
-                        android:id="@+id/ralzrxtx3tm"
-                        android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginHorizontal="36dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/month_name"
+                        android:textColor="#D9D9D9"
+                        android:textSize="15sp"
                         android:layout_height="wrap_content"
-                        android:gravity="center_vertical"
-                        android:layout_marginBottom="11dp"
-                        android:layout_marginHorizontal="36dp"
-                        android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:text="April"
+                        />
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        />
+                    <LinearLayout
+                        android:id="@+id/rks4sna3wc1l"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cr12bff00d09e"
+                        android:paddingHorizontal="8dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/rsusld9wjmci"
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:layout_marginTop="6dp"
+                            android:src="@mipmap/ic_launcher"
+                            android:scaleType="fitXY"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/rvj7ewiliibl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginHorizontal="23dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/rl1i2yue5kec"
+                        android:layout_width="57dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cr22bff6cb5fd"
+                        android:paddingHorizontal="21dp"
+                        android:layout_marginEnd="17dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/rwu039kblf0o"
+                            android:layout_width="match_parent"
+                            android:layout_height="27dp"
+                            android:layout_marginTop="13dp"
+                            android:src="@mipmap/ic_launcher"
+                            android:scaleType="fitXY"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/rsrf1a3ha9s"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:orientation="vertical">
                         <TextView
-                            android:id="@+id/month_name"
+                            android:id="@+id/categories"
                             android:textColor="#D9D9D9"
                             android:textSize="15sp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginStart="1dp"
                             android:layout_height="wrap_content"
                             android:layout_width="wrap_content"
-                            android:text="April"
+                            android:text="Dinner"
                             />
-                        <View
-                            android:layout_width="0dp"
-                            android:layout_height="0dp"
-                            android:layout_weight="1"
-                            />
-                        <LinearLayout
-                            android:id="@+id/rks4sna3wc1l"
-                            android:layout_width="32dp"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/cr12bff00d09e"
-                            android:paddingHorizontal="8dp"
-                            android:orientation="vertical">
-                            <ImageView
-                                android:id="@+id/rsusld9wjmci"
-                                android:layout_width="match_parent"
-                                android:layout_height="15dp"
-                                android:layout_marginTop="6dp"
-                                android:src="@mipmap/ic_launcher"
-                                android:scaleType="fitXY"
-                                />
-                        </LinearLayout>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:id="@+id/rvj7ewiliibl"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_vertical"
-                        android:layout_marginBottom="24dp"
-                        android:layout_marginHorizontal="23dp"
-                        android:orientation="horizontal">
-                        <LinearLayout
-                            android:id="@+id/rl1i2yue5kec"
-                            android:layout_width="57dp"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/cr22bff6cb5fd"
-                            android:paddingHorizontal="21dp"
-                            android:layout_marginEnd="17dp"
-                            android:orientation="vertical">
-                            <ImageView
-                                android:id="@+id/rwu039kblf0o"
-                                android:layout_width="match_parent"
-                                android:layout_height="27dp"
-                                android:layout_marginTop="13dp"
-                                android:src="@mipmap/ic_launcher"
-                                android:scaleType="fitXY"
-                                />
-                        </LinearLayout>
-                        <LinearLayout
-                            android:id="@+id/rsrf1a3ha9s"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:layout_marginEnd="4dp"
-                            android:orientation="vertical">
-                            <TextView
-                                android:id="@+id/categories"
-                                android:textColor="#D9D9D9"
-                                android:textSize="15sp"
-                                android:layout_marginBottom="8dp"
-                                android:layout_marginStart="1dp"
-                                android:layout_height="wrap_content"
-                                android:layout_width="wrap_content"
-                                android:text="Dinner"
-                                />
-                            <TextView
-                                android:id="@+id/date_month"
-                                android:textColor="#3299FF"
-                                android:textSize="12sp"
-                                android:layout_height="wrap_content"
-                                android:layout_width="wrap_content"
-                                android:text="18:27 - April 30"
-                                />
-                        </LinearLayout>
                         <TextView
-                            android:id="@+id/minus_price"
-                            android:textColor="#E3FEF7"
-                            android:textSize="15sp"
+                            android:id="@+id/date_month"
+                            android:textColor="#3299FF"
+                            android:textSize="12sp"
                             android:layout_height="wrap_content"
                             android:layout_width="wrap_content"
-                            android:text="-Rp 26,000"
+                            android:text="18:27 - April 30"
                             />
                     </LinearLayout>
-                    <LinearLayout
-                        android:id="@+id/rfq65x4oew2o"
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:id="@+id/minus_price"
+                        android:textColor="#E3FEF7"
+                        android:textSize="15sp"
                         android:layout_height="wrap_content"
-                        android:gravity="center_vertical"
-                        android:layout_marginBottom="24dp"
-                        android:layout_marginHorizontal="21dp"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:id="@+id/rvel1d3x8cxb"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:layout_marginEnd="4dp"
-                            android:orientation="vertical">
-                            <TextView
-                                android:id="@+id/categories2"
-                                android:textColor="#D9D9D9"
-                                android:textSize="15sp"
-                                android:layout_marginBottom="8dp"
-                                android:layout_height="wrap_content"
-                                android:layout_width="wrap_content"
-                                android:text="Delivery Pizza"
-                                />
-                            <TextView
-                                android:id="@+id/date_month2"
-                                android:textColor="#3299FF"
-                                android:textSize="12sp"
-                                android:layout_height="wrap_content"
-                                android:layout_width="wrap_content"
-                                android:text="15:00 - April 24"
-                                />
-                        </LinearLayout>
-                        <TextView
-                            android:id="@+id/minus_price2"
-                            android:textColor="#E3FEF7"
-                            android:textSize="15sp"
-                            android:layout_height="wrap_content"
-                            android:layout_width="wrap_content"
-                            android:text="-Rp 50,350"
-                            />
-                    </LinearLayout>
-
-                    <Button
-                        android:id="@+id/button_submit"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:background="@drawable/cr30bff029eb1"
-                        android:paddingVertical="11dp"
-                        android:text="add expenses"
-                        android:layout_marginBottom="19dp"
-                        android:layout_marginHorizontal="123dp"
-                        android:orientation="vertical">
-                    </Button>
-
-
-
-
-
-    </LinearLayout>
-        </ScrollView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FF093030">
-
-                <com.google.android.material.bottomnavigation.BottomNavigationView
-                    android:id="@+id/bottom_nav"
+                        android:layout_width="wrap_content"
+                        android:text="-Rp 26,000"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/rfq65x4oew2o"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/padding_nav"
-                    android:layout_alignParentBottom="true"
-                    app:menu="@menu/bottom_nav_menu"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:paddingVertical="15dp">
-                </com.google.android.material.bottomnavigation.BottomNavigationView>
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginHorizontal="21dp"
+                    android:orientation="horizontal">
 
-        </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/rvel1d3x8cxb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/categories2"
+                            android:textColor="#D9D9D9"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Delivery Pizza"
+                            />
+                        <TextView
+                            android:id="@+id/date_month2"
+                            android:textColor="#3299FF"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="15:00 - April 24"
+                            />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/minus_price2"
+                        android:textColor="#E3FEF7"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="-Rp 50,350"
+                        />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/cr30bff029eb1"
+                    android:paddingVertical="11dp"
+                    android:text="add expenses"
+                    android:layout_marginBottom="19dp"
+                    android:layout_marginHorizontal="123dp"
+                    android:orientation="vertical">
+                </Button>
+
+
+
+
 
             </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
